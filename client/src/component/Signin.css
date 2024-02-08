@@ -1,0 +1,100 @@
+.main {
+  align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    min-height: 100vh;
+    background-color: #e1e3eb;
+  }
+  /* .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: white;
+  } */
+  .imgs {
+
+      /* justify-content: center; */
+      display: flex;
+    }
+  /* .container-image {
+    background-color: rgb(223, 221, 221); 
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 115px;
+    width: 115px;
+  } */
+  .profile {
+    /* height: 100px; */
+    width: 150px;
+    /* padding-top: 60px; */
+    /*border-radius: 130px;*/
+  }
+  .logo-name {
+    color: #e6e6e6;
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: -10px;
+    margin-bottom: 0;
+  } 
+
+  input{
+      width: 300px;
+      height: 40px;
+      border: none;
+      outline: none;
+      background-color: #fff;
+      font-size: 20px;
+      color: gray;
+
+  }
+
+  .name{
+      padding-left: 15px;
+     font-size: 20px;
+  }
+  .second-input{
+      padding-top: 10px;
+  }
+
+  button{
+      width: 300px;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #fc0303;
+      color: white;
+      font-size: 25px;
+      margin-top:-20px;
+      border: none;
+  }
+  .btn-primary {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #c35323;
+    border-color:#c35323;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+  .txt-clr{
+    color: rgb(95, 95, 95);
+  }
+  .login-button{
+      padding-top: 25px;
+  }
+
+  .link{
+      font-size: 25px;
+      font-weight: 400;
+  }
+   a{
+       color: white;
+       font-family: 'Cinzel';
+   }

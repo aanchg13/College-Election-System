@@ -1,0 +1,59 @@
+
+h2, h3 {
+  padding: 6px 0px;
+  margin: auto;
+  text-align: left;
+  font-size:16px;
+}
+.container-main {
+  color: black;
+  font-size: medium;
+  text-align: center;
+  
+}
+.container-main .container-item{
+  background-color: rgba(255,255,255,0.5);
+  justify-content: space-between;
+  width:100%;
+
+}
+.contact {
+  color: grey;
+}
+.slogan {
+  color: #ccab00;
+  font-size: 1.5em;
+  margin: 7px 0px;
+}
+.discription {
+  padding: 11px;
+  padding-left: 1px;
+  max-height: 111px;
+  line-height: 1.5em;
+}
+
+.candidate-info {
+  transition: ease all 0.5s;
+  
+  margin-left: 1%;
+  padding: 10px;
+  background-color: #e5e5e5;
+  border-radius: 11px;
+}
+.vote-btn-container {
+  transition: ease all 0.5s;
+  height: 100%;
+  width: 30%;
+  justify-content: space-between;
+}
+.vote-bth {
+  width: 100%;
+  font-size: 16px;
+}
+@media all and (max-width: 900px) {
+  .candidate-info,
+  .vote-btn-container {
+    width: 100%;
+    height: 100%;
+  }
+}

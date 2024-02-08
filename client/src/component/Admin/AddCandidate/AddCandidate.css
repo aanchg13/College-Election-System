@@ -1,0 +1,32 @@
+.form {
+  width: 100%;
+  margin: 5px;
+  padding: 7px;
+  overflow: auto;
+}
+.input-ac {
+  margin: 0.5em;
+  margin-left: 0;
+  padding: 1em;
+  display: block;
+  width: 100%;
+}
+.label-ac {
+  display: block;
+}
+.btn-add {
+  width: 25%;
+  padding: 0px 1em;
+  float: inline-end;
+  margin: 0px 1em;
+}
+
+@media all and (max-width: 400px) {
+  .input-ac,
+  .btn-add {
+    width: 100%;
+  }
+  .btn-add {
+    float: inline-start;
+  }
+}
